@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "name": "node1",
+      "port": 8001,
+      "root": "node1/storage",
+      "latency_ms": 50
+    },
+    {
+      "name": "node2",
+      "port": 8002,
+      "root": "node2/storage",
+      "latency_ms": 150
+    },
+    {
+      "name": "node3",
+      "port": 8003,
+      "root": "node3/storage",
+      "latency_ms": 300
+    }
+  ]
+}
